@@ -1,3 +1,3 @@
 #!/bin/bash
-pyaccesspoint --config start -v
+pointAccessEdutech&
 sleep 30
