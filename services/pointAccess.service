@@ -1,0 +1,12 @@
+[Unit]
+Description= Ativa PyAccess Point
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/pointAccess.sh
+#RemainAfterExit=yes
+RemainAfterExit=yes
+
+[Install]
+#WantedBy=multi-user.target
+WantedBy=default.target

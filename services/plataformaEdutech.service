@@ -1,0 +1,11 @@
+[Unit]
+Description= Ativa Docker Plataforma Edutech
+
+[Service]
+Type=oneshot
+#User=user_docker
+ExecStart=/usr/local/bin/plataformaEdutech.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target

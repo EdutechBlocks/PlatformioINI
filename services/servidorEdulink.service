@@ -1,0 +1,12 @@
+[Unit]
+Description= Ativa Servidor Edulink
+
+[Service]
+Type=oneshot
+#User=user_docker
+ExecStart=/usr/local/bin/servidorEdutech.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target
+
